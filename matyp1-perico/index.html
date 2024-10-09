@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pk</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#inicio" class="logo">PK</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="Menú">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#historia">Nuestra historia</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container" id="inicio">
+            <div class="header-txt">
+                <h1>Perico Kayaks</h1>
+                <p>En Perico Kayaks proporcionamos productos de alta calidad a precios accesibles para todos. Disfruta el deporte con el mejor equipamiento.</p>
+                <a href="#informacion" class="btn-1">Más Información</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="slider-section">
+        <section class="slider">
+            <div class="slider-container">
+                <div class="slide fade">
+                    <img src="imagenes/descargaslider1.jpg" alt="Imagen 1">
+                </div>
+                <div class="slide fade">
+                    <img src="imagenes/slider2.jpg" alt="Imagen 2">
+                </div>
+                <div class="slide fade">
+                    <img src="imagenes/slider4.jpg" alt="Imagen 3">
+                </div>
+            </div>
+            <div class="slider-nav">
+                <span class="prev" onclick="changeSlide(-1)">&#10094;</span>
+                <span class="next" onclick="changeSlide(1)">&#10095;</span>
+            </div>
+        </section>
+    </section>
+
+    <section class="general container" id="historia">
+        <h2>Nuestra Historia</h2>
+        <div class="general-content">
+            <div class="general-1 txt">
+                <h3>Nuestros comienzos</h3>
+                <p>Fundamos Perico Kayaks con la idea de hacer accesible el kayak para todos, sin comprometer la calidad. Buscando llegar a todos los que quieran realizar este deporte desde 2005.</p>
+            </div>
+            <div class="general-2 txt">
+                <h3>Crecimiento y Evolución</h3>
+                <p>Con el tiempo, hemos crecido y evolucionado, mejorando nuestros productos y expandiéndonos a nivel nacional. Siempre en constante cambio.</p>
+            </div>
+            <div class="general-3 txt">
+                <h3>Nuestro futuro</h3>
+                <p>Nos proyectamos a un futuro donde cada persona pueda disfrutar del deporte sin barreras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-1" id="informacion">
+        <div class="info-content container">
+            <h2>Información de Interés</h2>
+            <div class="info-circulo">
+                <div class="circulo-txt">
+                    <div class="circulo-1">
+                        <h3>100%</h3>
+                    </div>
+                    <p>Garantía en todos nuestros productos</p>
+                </div>
+                <div class="circulo-txt">
+                    <div class="circulo-1">
+                        <h3>24/7</h3>
+                    </div>
+                    <p>Soporte al cliente</p>
+                </div>
+                <div class="circulo-txt">
+                    <div class="circulo-1">
+                        <h3>10,000+</h3>
+                    </div>
+                    <p>Clientes satisfechos</p>
+                </div>
+                <div class="circulo-txt">
+                    <div class="circulo-1">
+                        <h3>15 años</h3>
+                    </div>
+                    <p>De experiencia en el mercado</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="general g2 container" id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="general-content">
+            <div class="general-4 txt">
+                <h3>Kayak Modelo A</h3>
+                <p>Perfecto para principiantes, fácil de usar y resistente.</p>
+            </div>
+            <div class="general-5 txt">
+                <h3>Kayak Modelo B</h3>
+                <p>Para aquellos que buscan aventura, con capacidad extra y estabilidad.</p>
+            </div>
+            <div class="general-6 txt">
+                <h3>Accesorios</h3>
+                <p>Desde remos hasta chalecos, todo lo que necesitas para tu experiencia de kayak.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="ad-section">
+        <iframe src="https://dantevillamea.github.io/anuncio" title="Anuncio" class="ad-iframe" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <section class="info-2" id="testimonios">
+        <div class="info-content container">
+            <h2>Testimonios</h2>
+            <div class="testi">
+                <div class="testi-left">
+                    <div class="testi-txt">
+                        <img src="imagenes/descargadibujito1.jpg" alt="Cliente 1">
+                        <h3>Cliente Satisfecho</h3>
+                        <p>"Increíble calidad y precios accesibles. Muy satisfecho con mi compra."</p>
+                    </div>
+                    <div class="testi-txt">
+                        <img src="imagenes/descargadibujito2.jpg" alt="Cliente 2">
+                        <h3>Aventura Segura</h3>
+                        <p>"Gracias a Perico Kayaks, pude disfrutar de una experiencia segura y divertida en el agua."</p>
+                    </div>
+                </div>
+                <div class="testi-right">
+                    <div class="testi-txt">
+                        <img src="imagenes/descargadibujito3.jpg" alt="Cliente 3">
+                        <h3>Servicio al Cliente</h3>
+                        <p>"El soporte es excelente, respondieron a todas mis dudas rápidamente."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer container" id="contacto">
+        <h2>Contacto</h2>
+        <form id="contactForm">
+            <input class="campo" type="text" placeholder="Nombre" required>
+            <input class="campo" type="email" placeholder="Email" required>
+            <input type="submit" class="btn-2" value="Enviar">
+        </form>
+        <div id="responseMessage" style="display:none; margin-top: 20px;"></div>
+
+        <div class="footer-txt">
+            <p>&copy; 2024 Perico Kayaks - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <a href="#" class="btn-back-to-top" id="btnBackToTop">&#8593; Volver Arriba</a>
+    <script>
+        
+        window.onscroll = function() {
+            const button = document.getElementById('btnBackToTop');
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                button.style.display = "block"; 
+            } else {
+                button.style.display = "none"; 
+            }
+        };
+    
+        document.getElementById('btnBackToTop').onclick = function() {
+            document.body.scrollTop = 0; 
+            document.documentElement.scrollTop = 0; 
+        };
+    </script>
+    <script>
+        document.getElementById('contactForm').onsubmit = function(event) {
+            event.preventDefault(); 
+            const responseMessage = document.getElementById('responseMessage');
+            responseMessage.textContent = "Gracias, nos pondremos en contacto contigo!";
+            responseMessage.style.display = "block";
+            this.reset(); 
+        };
+    </script>
+
+    <script>
+        let slideIndex = 0; 
+        showSlides(); 
+        
+        function showSlides() {
+            let slides = document.getElementsByClassName("slide");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none"; 
+            }
+            slideIndex++; 
+            if (slideIndex > slides.length) {
+                slideIndex = 1; 
+            }
+            slides[slideIndex - 1].style.display = "block"; 
+            setTimeout(showSlides, 3000); 
+        }
+        
+        function changeSlide(n) {
+            showSlides(slideIndex += n); 
+        }
+    </script>
+</body>
+</html>
